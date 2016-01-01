@@ -1,0 +1,30 @@
+body {
+  line-height: 1.5;
+  color:white;
+  font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+  background: url('../images/shenzhen_bw.jpg');
+  /* Full Page Background Receipe */
+  background-size: cover;/*this threee lins make the background pic to be stable*/
+  background-position: center;
+  background-attachment: fixed;
+}
+/*<?a box surrond everything in the "container"*/
+.container { 
+  width: 500px;
+  margin: 40px;
+  background: rgba(0,0,0,0.5); /*rgba is a way to name number?>*/
+  padding: 15px;
+  /*border-radius:30px;*/
+
+}
+h1{
+	font-size:70px;
+	margin-bottom: -30px;
+}
+h2{
+	font-size: 30px;
+}
+a{
+	color: green;
+	text-decoration: none;
+}
